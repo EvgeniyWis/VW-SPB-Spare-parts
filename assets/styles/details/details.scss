@@ -19,6 +19,12 @@
     order: 7;
     margin-top: 20px;
 
+    @media (max-width: 600px) {
+        margin-top: 0;
+        position: relative;
+        bottom: 50px;
+    }
+
     &_catalog_button {
         @extend %blue_button;
         width: 300px;
@@ -124,6 +130,20 @@
                     border-radius: 10px;
                     position: relative;
                     margin-top: 20px;
+
+                    @media (max-width: 1200px) {
+                        &:nth-of-type(2) {
+                            .details__item--adaptive--img {
+                                bottom: 20px;
+                            }
+                        }
+
+                        &:nth-of-type(4) {
+                            .details__item--adaptive--img {
+                                bottom: 20px;
+                            }
+                        }
+                    }
 
                     .details__item--caption--adaptive {
                         font-size: 2rem;

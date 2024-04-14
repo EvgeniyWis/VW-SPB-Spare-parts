@@ -20,6 +20,13 @@
   order: 7;
   margin-top: 20px;
 }
+@media (max-width: 600px) {
+  .details {
+    margin-top: 0;
+    position: relative;
+    bottom: 50px;
+  }
+}
 .details_catalog_button {
   width: 300px;
   align-self: center;
@@ -123,6 +130,16 @@
     position: relative;
     margin-top: 20px;
   }
+}
+@media (max-width: 1200px) and (max-width: 1200px) {
+  .details__items--adaptive .details__item--adaptive:nth-of-type(2) .details__item--adaptive--img {
+    bottom: 20px;
+  }
+  .details__items--adaptive .details__item--adaptive:nth-of-type(4) .details__item--adaptive--img {
+    bottom: 20px;
+  }
+}
+@media (max-width: 1200px) {
   .details__items--adaptive .details__item--adaptive .details__item--caption--adaptive {
     font-size: 2rem;
     font-weight: bold;

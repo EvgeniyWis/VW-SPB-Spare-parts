@@ -118,7 +118,7 @@
                 }
 
                 @media (max-width: 400px) {
-                    padding: 0px;
+                    padding: 10px;
                     gap: 0px;
                 }
 
@@ -260,13 +260,21 @@
         &:nth-of-type(3) {
 
             .details__item--img {
-                bottom: 20px;
+                bottom: 15px;
             }
         }
 
         &:nth-of-type(4) {
             .details__item--img {
                 bottom: -15px;
+            }
+
+            .details__item--caption {
+                padding-right: 115px;
+
+                @media (max-width: 900px) {
+                    top: 10px;
+                }
             }
         }
 

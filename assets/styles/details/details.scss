@@ -133,13 +133,13 @@
                     position: relative;
                     margin-top: 20px;
 
-                    @media (max-width: 1200px) {
-                        &:nth-of-type(2) {
-                            .details__item--adaptive--img {
-                                bottom: 20px;
-                            }
-                        }
-                    }
+                    // @media (max-width: 1200px) {
+                    //     &:nth-of-type(2) {
+                    //         .details__item--adaptive--img {
+                    //             bottom: 20px;
+                    //         }
+                    //     }
+                    // }
 
                     .details__item--caption--adaptive {
                         font-size: 2rem;

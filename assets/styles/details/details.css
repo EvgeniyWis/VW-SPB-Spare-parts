@@ -132,13 +132,6 @@
     position: relative;
     margin-top: 20px;
   }
-}
-@media (max-width: 900px) and (max-width: 1200px) {
-  .details__items--adaptive .details__item--adaptive:nth-of-type(2) .details__item--adaptive--img {
-    bottom: 20px;
-  }
-}
-@media (max-width: 900px) {
   .details__items--adaptive .details__item--adaptive .details__item--caption--adaptive {
     font-size: 2rem;
     font-weight: bold;

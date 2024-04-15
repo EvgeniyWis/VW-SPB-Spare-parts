@@ -39,7 +39,7 @@
   font-weight: bold;
   margin-bottom: 50px;
   position: relative;
-  bottom: 30px;
+  bottom: 40px;
   right: 50px;
 }
 @media (max-width: 1300px) {
@@ -220,6 +220,9 @@
 }
 .details__item:nth-of-type(5) .details__item--img {
   bottom: -35px;
+}
+.details__item:nth-of-type(5) .details__item--caption {
+  padding-right: 110px;
 }
 @media (max-width: 900px) {
   .details__item {

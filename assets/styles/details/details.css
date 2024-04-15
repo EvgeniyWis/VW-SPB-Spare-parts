@@ -160,12 +160,16 @@
   .details__items--adaptive .details__item--adaptive:nth-of-type(5) .details__item--caption--adaptive {
     top: 20px;
   }
+  .details__items--adaptive .details__item--adaptive:nth-of-type(5) .details__item--adaptive--img {
+    bottom: 0;
+  }
   .details__items--adaptive .details__item--adaptive--img {
     -o-object-fit: contain;
        object-fit: contain;
     width: 100%;
     position: relative;
     border-radius: 10px;
+    bottom: 25px;
   }
 }
 @media (max-width: 500px) {
@@ -208,7 +212,7 @@
   bottom: -15px;
 }
 .details__item:nth-of-type(4) .details__item--caption {
-  padding-right: 115px;
+  padding-right: 40px;
 }
 @media (max-width: 900px) {
   .details__item:nth-of-type(4) .details__item--caption {

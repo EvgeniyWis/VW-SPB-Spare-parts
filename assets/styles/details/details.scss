@@ -168,6 +168,10 @@
                         .details__item--caption--adaptive {
                             top: 20px;
                         }
+
+                        .details__item--adaptive--img {
+                            bottom: 0;
+                        }
                     }
 
                     &--img {
@@ -175,6 +179,7 @@
                         width: 100%;
                         position: relative;
                         border-radius: 10px;
+                        bottom: 25px;
                     }
                 }
             }
@@ -270,7 +275,7 @@
             }
 
             .details__item--caption {
-                padding-right: 115px;
+                padding-right: 40px;
 
                 @media (max-width: 900px) {
                     top: 10px;

@@ -97,7 +97,7 @@ header nav .navbar_phone {
 header nav .navbar__menu {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
 }
 @media (max-width: 1400px) {
   header nav .navbar__menu {

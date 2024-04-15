@@ -100,7 +100,7 @@ header {
             &__menu {
                 display: flex;
                 align-items: center;
-                gap: 25px;
+                gap: 15px;
 
                 @media (max-width: 1400px) {
                     display: none;

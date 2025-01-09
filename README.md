@@ -9,6 +9,6 @@
    1. Склонируйте данный репозиторий.
    2. Откройте файл ```index.html```
    
-Или вы можете просто зайти на [сайт](kriswis.github.io/VW-SPB-Spare-parts/), загруженный на Github Pages.
+Или вы можете просто зайти на [сайт](https://evgeniywis.github.io/VW-SPB-Spare-parts/), загруженный на Github Pages.
 # Макет:
 ![spare_parts](https://github.com/KrisWis/VW-SPB-Spare-parts/assets/94256853/433af4b4-09b9-4ea9-98ed-0b806404e627)
